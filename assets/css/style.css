@@ -1,15 +1,23 @@
 .gems {
     height: 50px;
     width: 50px;
-    margin-left: 12%;
+    margin-left: 11.75%;
+    transition: box-shadow 1s, transform 2s;
+}
+
+.gems:hover {
+	transform: translate(5px,15px);
+	cursor: pointer;
+	transition: box-shadow 1s, transform 2s;
+
+
 }
 
 p {
-	font-family: 'VT323', monospace;
-	font-size: 22px;
-
+    font-family: 'VT323', monospace;
+    font-size: 22px;
 }
 
 .card {
-	margin-top: 5px;
+    margin-top: 5px;
 }
