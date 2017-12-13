@@ -1,4 +1,15 @@
 .gems {
     height: 50px;
     width: 50px;
+    margin-left: 12%;
+}
+
+p {
+	font-family: 'VT323', monospace;
+	font-size: 22px;
+
+}
+
+.card {
+	margin-top: 5px;
 }

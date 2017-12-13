@@ -64,7 +64,7 @@ var startGame = function() {
     console.log("------------------------")
     console.log("Target Score: " + targetScore);
     console.log("Blue: " + crystal.blue.value + " | Red: " + crystal.red.value + " | Green: " + crystal.green.value + " | Yellow: " + crystal.yellow.value);
-    console.log("---------------------")
+    console.log("------------------------")
 
 }
 
@@ -137,3 +137,5 @@ $('#green').click(function() {
 $('#yellow').click(function() {
     addValues(crystal.yellow);
 });
+
+
